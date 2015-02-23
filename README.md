@@ -41,3 +41,4 @@ pager.setAdapter(...);
 ```
 
 See complete example [here](https://github.com/je4a/ParallaxViewPager/blob/master/sample/src/main/java/com/parallaxviewpager/sample/SampleActivity.java).
+See example video [here](http://youtu.be/kin8Qo2yDhY).
