@@ -22,13 +22,4 @@ public class ParallaxTransform implements ViewPager.PageTransformer {
     public void setParallaxSpeed(float parallaxSpeed) {
         this.parallaxSpeed = parallaxSpeed;
     }
-
-    public static class ViewHolder {
-        private View parallaxView;
-
-        private ViewHolder() { this.parallaxView = null; }
-        public ViewHolder(View parallaxView) { this.parallaxView = parallaxView; }
-        public View getParallaxView() { return parallaxView; }
-        public void setParallaxView(View parallaxView) { this.parallaxView = parallaxView; }
-    }
 }

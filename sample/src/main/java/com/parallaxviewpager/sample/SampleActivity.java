@@ -42,7 +42,7 @@ public class SampleActivity extends ActionBarActivity {
         public Object instantiateItem(ViewGroup container, int position) {
             View parallaxContainer = inflater.inflate(R.layout.page_layout, null);
             ImageView image = (ImageView) parallaxContainer.findViewById(R.id.image);
-            ParallaxTransform.ViewHolder holder = new ParallaxTransform.ViewHolder(image);
+            ViewHolder holder = new ViewHolder(image);
 
             image.setImageResource(images.get(position));
             container.addView(parallaxContainer);
